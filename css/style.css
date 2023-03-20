@@ -1,0 +1,29 @@
+.countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.country {
+    border: 3px solid red;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: aqua;
+}
+.country img {
+    width: 200px;
+    height: 100px;
+}
+.show-btn {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#show-all-btn {
+    padding: 15px 25px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
