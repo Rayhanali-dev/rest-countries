@@ -13,12 +13,12 @@
     width: 200px;
     height: 100px;
 }
-.show-btn {
+.show-btn, .show-less {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#show-all-btn {
+#show-all-btn, #previous {
     padding: 15px 25px;
     background-color: blueviolet;
     color: #fff;
@@ -26,4 +26,8 @@
     font-weight: bold;
     border: none;
     cursor: pointer;
+}
+
+.show-less {
+    display: none;
 }
